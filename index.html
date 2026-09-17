@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#110703">
+  <title>Myanmar Discovery</title>
+  <meta name="description" content="A quiet editorial introduction to Myanmar: its history, culture, and must-see places. For visitors who know little about the country, and want to see it clearly.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#glance">Skip to content</a>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="header">
+    <a class="wordmark" href="#top" aria-label="Myanmar Discovery — home">
+      <svg viewBox="0 0 240 60" fill="none" aria-hidden="true">
+        <g transform="translate(10, 10)">
+          <path d="M20 2 C22 10, 28 14, 28 22 C28 30, 21 37, 10 38 C18 36, 23 30, 22 24 C21 16, 14 12, 20 2 Z" fill="#C59B27"/>
+          <circle cx="20" cy="18" r="2.5" fill="#1B3B36"/>
+          <path d="M7 26 C12 28, 17 32, 18 38 C14 36, 9 32, 7 26 Z" fill="#B85D38" opacity="0.85"/>
+        </g>
+        <text x="50" y="32" font-family="'Playfair Display', Georgia, serif" font-size="21" font-weight="600" letter-spacing="0.22em" fill="currentColor">MYANMAR</text>
+        <text x="51" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="500" letter-spacing="0.36em" fill="currentColor" opacity="0.7">DISCOVERY</text>
+        <line x1="205" y1="20" x2="205" y2="42" stroke="#C59B27" stroke-width="0.75" stroke-opacity="0.7"/>
+        <text x="214" y="33" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" letter-spacing="0.25em" fill="currentColor" opacity="0.55">VOL. 01</text>
+      </svg>
+    </a>
+    <nav class="nav-desktop" aria-label="Primary">
+      <a href="#glance">Glance</a>
+      <a href="#history">History</a>
+      <a href="#places">Places</a>
+      <a href="#culture">Culture</a>
+      <a href="#notes">Notes</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+      <span></span>
+    </button>
+  </header>
+
+  <nav class="nav-mobile" id="mobileNav" aria-label="Mobile">
+    <a href="#glance"><em>01</em> At a glance</a>
+    <a href="#history"><em>02</em> A brief history</a>
+    <a href="#places"><em>03</em> Must-see places</a>
+    <a href="#culture"><em>04</em> Culture &amp; people</a>
+    <a href="#notes"><em>05</em> Good to know</a>
+  </nav>
+
+  <main id="top">
+    <section class="hero" aria-label="Opening plate">
+      <div class="hero-media" id="heroMedia">
+        <img src="assets/images/bagan-dawn.png" width="1376" height="768" fetchpriority="high" decoding="async" alt="Hot-air balloons drifting over the brick temples of Bagan in dawn mist.">
+      </div>
+      <div class="hero-scrim" aria-hidden="true"></div>
+      <div class="reticle" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <div class="hero-inner">
+        <p class="kicker"><i></i> 21°10′N · 94°52′E · Bagan, dry season</p>
+        <h1>Myanmar,<br><em>at first light.</em></h1>
+        <p class="lede">A quiet introduction to a country most maps still call Burma — its kingdoms, its people, and the places that hold them.</p>
+      </div>
+      <div class="hero-foot">
+        <span>Plate I · Temples in the mist</span>
+        <a class="scroll-cue" href="#glance">
+          Scroll
+          <span class="line" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="glance" id="glance">
+      <div class="glance-panel reveal">
+        <dl class="facts">
+          <div class="fact">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 L16 9 H8 Z"/><path d="M12 9 V20"/><path d="M7 20 H17"/></svg>
+            <dt>Seat</dt>
+            <dd>Naypyidaw</dd>
+            <small>Heart: Yangon</small>
+          </div>
+          <div class="fact">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 16 C8 8, 12 8, 12 12 C12 16, 16 16, 19 8"/></svg>
+            <dt>Language</dt>
+            <dd>Burmese</dd>
+            <small>Myanmar script</small>
+          </div>
+          <div class="fact">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><path d="M12 8 V16"/></svg>
+            <dt>Currency</dt>
+            <dd>Kyat</dd>
+            <small>MMK · cash still rules</small>
+          </div>
+          <div class="fact">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 L14 10 H20 L15 14 L17 20 L12 16 L7 20 L9 14 L4 10 H10 Z"/></svg>
+            <dt>Faith</dt>
+            <dd>Theravāda</dd>
+            <small>Lived, not displayed</small>
+          </div>
+          <div class="fact">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 3 V6 M12 18 V21 M3 12 H6 M18 12 H21"/></svg>
+            <dt>Go when</dt>
+            <dd>Nov–Feb</dd>
+            <small>Cool, clear mornings</small>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section history" id="history">
+      <div class="section-head reveal">
+        <div>
+          <p class="idx">02 — A brief history</p>
+          <h2>Four turns of the river.</h2>
+        </div>
+        <p>Not a textbook. Just the shapes that still sit on the land.</p>
+      </div>
+
+      <div class="history-layout">
+        <figure class="history-plate" id="historyPlate">
+          <img class="is-on" data-era="0" src="assets/images/bagan-dawn.png" width="1376" height="768" loading="lazy" decoding="async" alt="The temple plain of Bagan at sunrise.">
+          <div class="field-plate" data-era="1" data-tone="umber">
+            <span class="num">Field plate · II</span>
+            <strong>Mandalay</strong>
+            <span class="caption" style="color: rgba(243,240,235,0.7); margin-top: 0.4rem;">21°58′N · Last royal capital, 1857</span>
+          </div>
+          <img data-era="2" src="assets/images/shwedagon.png" width="1376" height="768" loading="lazy" decoding="async" alt="Shwedagon Pagoda at dusk, lamps and monks on the marble terrace.">
+          <div class="field-plate" data-era="3" data-tone="jade">
+            <span class="num">Field plate · IV</span>
+            <strong>Still becoming.</strong>
+            <span class="caption" style="color: rgba(199,234,226,0.75); margin-top: 0.4rem;">Independence, 4 January 1948</span>
+          </div>
+          <figcaption class="plate-meta">
+            <span id="plateLabel">Plate · Bagan kingdom</span>
+            <span id="plateYears">849–1287</span>
+          </figcaption>
+        </figure>
+
+        <div class="eras" id="eras">
+          <button class="era is-active" type="button" data-era="0">
+            <span class="when">I · 9th–13th century</span>
+            <h3>Ten thousand stupas</h3>
+            <p>On a bend of the Ayeyarwady, kings and villagers raised a forest of brick temples. More than two thousand still stand in the dust and the morning.</p>
+          </button>
+          <button class="era" type="button" data-era="1">
+            <span class="when">II · 14th–19th century</span>
+            <h3>Teak, gold, Mandalay</h3>
+            <p>Power moved upriver — Inwa, Amarapura, then Mandalay — palaces of carved teak and workshops that still beat gold leaf paper-thin.</p>
+          </button>
+          <button class="era" type="button" data-era="2">
+            <span class="when">III · 1885–1948</span>
+            <h3>The port called Rangoon</h3>
+            <p>A fishing town became an empire’s rice-and-teak harbour. The colonnades remain; the name on the map is Yangon again.</p>
+          </button>
+          <button class="era" type="button" data-era="3">
+            <span class="when">IV · 1948–</span>
+            <h3>A country in its own tense</h3>
+            <p>Independence did not freeze the culture. Monasteries still teach, markets still argue, and the old rites are ordinary, not costume.</p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section places" id="places">
+      <div class="section-head reveal">
+        <div>
+          <p class="idx">03 — Must-see places</p>
+          <h2>Six rooms of the country.</h2>
+        </div>
+        <p>Open a plate for a little more. Leave the rest for the ground.</p>
+      </div>
+
+      <div class="bento has-six">
+        <button class="place place-bagan" type="button" data-place="bagan">
+          <img src="assets/images/bagan-dawn.png" width="1376" height="768" loading="lazy" decoding="async" alt="">
+          <span class="veil" aria-hidden="true"></span>
+          <span class="place-copy">
+            <span class="plate">Plate 01 · Dry zone</span>
+            <h3>Bagan</h3>
+            <p>A plain of temples. Best at the hour before the heat.</p>
+            <span class="hint">Open plate</span>
+          </span>
+        </button>
+
+        <button class="place place-inle" type="button" data-place="inle">
+          <img src="assets/images/inle.png" width="1376" height="768" loading="lazy" decoding="async" alt="">
+          <span class="veil" aria-hidden="true"></span>
+          <span class="place-copy">
+            <span class="plate">Plate 02 · Shan plateau</span>
+            <h3>Inle Lake</h3>
+            <p>Leg-rowers, floating gardens, silk from lotus stem.</p>
+            <span class="hint">Open plate</span>
+          </span>
+        </button>
+
+        <button class="place place-yangon" type="button" data-place="yangon">
+          <img src="assets/images/shwedagon.png" width="1376" height="768" loading="lazy" decoding="async" alt="">
+          <span class="veil" aria-hidden="true"></span>
+          <span class="place-copy">
+            <span class="plate">Plate 03 · The old capital</span>
+            <h3>Yangon</h3>
+            <p>The city gathers, at dusk, around a hill of gold.</p>
+            <span class="hint">Open plate</span>
+          </span>
+        </button>
+
+        <button class="place place-mandalay is-type" data-tone="umber" type="button" data-place="mandalay">
+          <svg class="ornament" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <path d="M8 34 H40 M10 34 V22 L24 12 L38 22 V34" stroke="currentColor" stroke-width="1"/>
+            <path d="M24 12 V6" stroke="currentColor" stroke-width="1"/>
+          </svg>
+          <span class="place-copy">
+            <span class="plate">Plate 04 · 21°58′N</span>
+            <h3>Mandalay</h3>
+            <p>Last royal seat. Teak bridge, gold leaf, hill at evening.</p>
+            <span class="hint">Open plate</span>
+          </span>
+        </button>
+
+        <button class="place place-hpaan is-type" data-tone="jade" type="button" data-place="hpaan">
+          <svg class="ornament" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <path d="M8 38 C14 28, 18 18, 24 10 C30 18, 34 28, 40 38" stroke="currentColor" stroke-width="1"/>
+            <path d="M20 38 C22 30, 24 24, 28 20" stroke="currentColor" stroke-width="1"/>
+          </svg>
+          <span class="place-copy">
+            <span class="plate">Plate 05 · Kayin</span>
+            <h3>Hpa-An</h3>
+            <p>Limestone karst, cave monasteries, river mist.</p>
+            <span class="hint">Open plate</span>
+          </span>
+        </button>
+
+        <button class="place place-kyaiktiyo is-type" data-tone="gold" type="button" data-place="kyaiktiyo">
+          <svg class="ornament" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <ellipse cx="24" cy="28" rx="10" ry="8" stroke="currentColor" stroke-width="1"/>
+            <path d="M24 12 L26 20 H22 Z" stroke="currentColor" stroke-width="1"/>
+          </svg>
+          <span class="place-copy">
+            <span class="plate">Plate 06 · Mon State</span>
+            <h3>Kyaiktiyo</h3>
+            <p>A gilded boulder, balanced, as if it might yet decide.</p>
+            <span class="hint">Open plate</span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section culture" id="culture">
+      <div class="section-head reveal">
+        <div>
+          <p class="idx">04 — Culture &amp; people</p>
+          <h2>What the photographs cannot hold.</h2>
+        </div>
+        <p>A few living things, set beside one another — not a catalogue.</p>
+      </div>
+
+      <div class="mosaic">
+        <article class="tile is-photo tile-faith">
+          <img src="assets/images/shwedagon.png" width="1376" height="768" loading="lazy" decoding="async" alt="Devotees and monks on the marble terrace of Shwedagon Pagoda at twilight.">
+          <div class="tile-copy">
+            <span class="tag">Faith, in public</span>
+            <h3>The day begins with bowls.</h3>
+            <p>Before the heat, monks walk the lanes. Rice is given, not as spectacle — as breakfast, and as merit.</p>
+          </div>
+        </article>
+
+        <article class="tile is-clay tile-thanaka">
+          <div class="tile-copy">
+            <span class="tag">The face of the country</span>
+            <h3>Thanaka</h3>
+            <p>Bark, ground on stone with a little water. Worn on cheeks against the sun — cream, cool, faintly of sandalwood.</p>
+          </div>
+        </article>
+
+        <article class="tile is-invert tile-food">
+          <div class="tile-copy">
+            <span class="tag">The table</span>
+            <h3>Mohinga, then tea.</h3>
+            <p>Catfish broth and rice noodles at morning. Later, pickled tea leaves tossed with nuts, garlic, a little heat — laphet thoke.</p>
+          </div>
+        </article>
+
+        <article class="tile is-photo tile-people">
+          <img src="assets/images/inle.png" width="1376" height="768" loading="lazy" decoding="async" alt="An Intha fisherman standing on one leg in a narrow boat on Inle Lake.">
+          <div class="tile-copy">
+            <span class="tag">On the water</span>
+            <h3>Work as a kind of poise.</h3>
+            <p>At Inle the oar is wrapped around the leg. It looks like dance. It is how you keep both hands free for the net.</p>
+          </div>
+        </article>
+
+        <article class="tile is-jade tile-dress">
+          <div class="tile-copy">
+            <span class="tag">Cloth</span>
+            <h3>The longyi</h3>
+            <p>A sheet of cotton or silk, knotted at the waist. Ministers wear it. Boatmen wear it. Acheik silk still comes off Amarapura looms.</p>
+          </div>
+        </article>
+
+        <article class="tile is-clay tile-festival">
+          <div class="tile-copy">
+            <span class="tag">April · the new year</span>
+            <h3>Thingyan</h3>
+            <p>Water, thrown with intent: to wash the old year off. Streets become rivers. Elders are sprinkled, not soaked, if you know the manner.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section notes" id="notes">
+      <div class="notes-layout">
+        <aside class="note-aside reveal">
+          <p class="idx">05 — Good to know</p>
+          <h2>A few things, before you go.</h2>
+          <p>Practical, not exhaustive. Open only what you need — the country will teach the rest.</p>
+        </aside>
+
+        <div class="checklist" id="checklist">
+          <div class="check">
+            <button class="check-btn" type="button" aria-expanded="true" aria-controls="note-1">
+              <span class="n">01</span>
+              <h3>Visa</h3>
+              <span class="chev" aria-hidden="true"></span>
+            </button>
+            <div class="check-panel is-open" id="note-1">
+              <div>
+                <p>Most passports need an eVisa before flying. Apply through the official immigration site; keep six months’ validity on the passport. Rules shift — read them close to your date, not from an old blog.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="check">
+            <button class="check-btn" type="button" aria-expanded="false" aria-controls="note-2">
+              <span class="n">02</span>
+              <h3>Temple manner</h3>
+              <span class="chev" aria-hidden="true"></span>
+            </button>
+            <div class="check-panel" id="note-2">
+              <div>
+                <p>Shoes and socks off at the gate. Shoulders and knees covered. Sit so the soles of your feet do not point at a Buddha, or at an elder. Ask before you photograph someone at prayer. Do not touch a monk’s robes.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="check">
+            <button class="check-btn" type="button" aria-expanded="false" aria-controls="note-3">
+              <span class="n">03</span>
+              <h3>Getting around</h3>
+              <span class="chev" aria-hidden="true"></span>
+            </button>
+            <div class="check-panel" id="note-3">
+              <div>
+                <p>Yangon, Mandalay, Bagan, Inle — think in hops, not a single road. Domestic flights save days. The Ayeyarwady between Mandalay and Bagan is the slow, right way if you have the hours. In towns: taxis, and walking in the cool.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="check">
+            <button class="check-btn" type="button" aria-expanded="false" aria-controls="note-4">
+              <span class="n">04</span>
+              <h3>Money &amp; the rest</h3>
+              <span class="chev" aria-hidden="true"></span>
+            </button>
+            <div class="check-panel" id="note-4">
+              <div>
+                <p>Day-to-day is kyat, in cash. Cards are not a plan. If dollars are asked for, they should be new, unmarked, uncreased. Check current travel advice before you pack — this is a living country, not a museum hour.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closeout" id="closeout" aria-label="Closing plate">
+      <img src="assets/images/shwedagon.png" width="1376" height="768" loading="lazy" decoding="async" alt="Shwedagon Pagoda glowing against a deep blue evening sky.">
+      <div class="veil" aria-hidden="true"></div>
+      <div class="closeout-inner">
+        <p class="kicker"><i></i> The rest is learned by going</p>
+        <h2>Come when you can.<br>Go gently.</h2>
+        <p>Not a brochure. A first looking — toward a country that rewards patience more than itinerary.</p>
+        <a class="btn is-ghost" href="#places">Explore the places <span class="arrow" aria-hidden="true"></span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p class="colophon">Myanmar Discovery · not a booking desk.</p>
+      <p>Myanmar is also called Burma. Both names are used with care here.</p>
+    </div>
+    <p>Vol. 01 · Plates from Bagan, Inle, Yangon</p>
+  </footer>
+
+  <div class="drawer-veil" id="drawerVeil" hidden></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" hidden>
+    <div class="drawer-bar">
+      <span id="drawerPlate">Plate</span>
+      <button class="close-x" id="drawerClose" type="button" aria-label="Close"></button>
+    </div>
+    <h3 id="drawerTitle"></h3>
+    <p class="where" id="drawerWhere"></p>
+    <p class="body" id="drawerBody"></p>
+    <div class="meta-row" id="drawerMeta"></div>
+  </aside>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

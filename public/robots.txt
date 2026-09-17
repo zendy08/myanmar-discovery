@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Editorial guide — crawl the page, skip build artefacts if this origin ever serves them.
+Disallow: /.next/
+Disallow: /node_modules/

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-labelledby="title">
+  <title>Myanmar Discovery</title>
+  <rect width="32" height="32" fill="#110703"/>
+  <path d="M16.5 4c1.4 6.2 6.2 9.4 6.2 15.4 0 6.2-5.4 11.6-14.2 12.4 6.2-1.6 10-6.2 9.2-10.8C17 15.2 12 12.2 16.5 4Z" fill="#C59B27"/>
+  <circle cx="16.2" cy="16.4" r="1.9" fill="#1B3B36"/>
+  <path d="M8 22c3.8 1.5 7.4 4.4 8 8.4-3-1.4-6.6-4.4-8-8.4Z" fill="#B85D38" opacity="0.9"/>
+</svg>

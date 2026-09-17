@@ -1,0 +1,13 @@
+---
+description: Editorial voice, stack, and source-of-truth rules for Myanmar Discovery
+alwaysApply: true
+---
+
+# Myanmar Discovery
+
+- Read `spec.md` and `agent.md` before changing copy, layout, or interaction.
+- Canonical runtime is the Next.js App Router. Do not treat `index.html` as live product.
+- Place data belongs in `lib/places.ts`. Editorial CSS belongs in `css/styles.css`.
+- Voice: quiet, specific, no brochure adjectives, no booking CTAs.
+- Honour skip link, drawer focus, body scroll lock, and `prefers-reduced-motion`.
+- After UI changes, verify the reader path: hero → map pin → place plate → drawer.
